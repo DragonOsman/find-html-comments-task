@@ -1,0 +1,33 @@
+{
+  "name": "find_html_comments_task",
+  "version": "1.0.0",
+  "description": "Javascript.info task \"Find HTML Comments\" solution",
+  "main": "scripts/script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonOsman/find-html-comments-task.git"
+  },
+  "keywords": [
+    "javascript.info-task",
+    "javascript.info",
+    "regexp",
+    "html-comments",
+    "find-html-comments",
+    "task"
+  ],
+  "author": "Osman Zakir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragonOsman/find-html-comments-task/issues"
+  },
+  "homepage": "https://github.com/DragonOsman/find-html-comments-task#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
