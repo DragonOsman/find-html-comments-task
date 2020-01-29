@@ -4,4 +4,6 @@ const str = `... <!-- My -- comment
 test --> ..  <!----> ..
 `;
 
-alert(str.match(/(?=<!--)([\s\S]*?)-->/g));
+// Find all matches of zero or more of any character between comment tags, having "any character" include 
+// mulitple lines
+alert(str.match(/<!--.*?-->/gs));
